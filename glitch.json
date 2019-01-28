@@ -1,0 +1,16 @@
+{
+  "install": "pip install --user pipenv && cd web_server && pipenv install",
+  "start": "cd web_server &&  pipenv run python manage.py runserver",
+  "watch": {
+    "ignore": [
+      "\\.pyc$"
+    ],
+    "restart": {
+      "include": [
+        "\\.py$",
+        "^start\\.sh"
+      ]
+    },
+    "throttle": 1000
+  }
+}
