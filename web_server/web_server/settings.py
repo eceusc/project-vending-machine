@@ -25,7 +25,9 @@ SECRET_KEY = 'TODO_CHANGE_THIS'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ff11c6ba.ngrok.io',
+]
 
 
 # Application definition
