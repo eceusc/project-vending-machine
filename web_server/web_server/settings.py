@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '.ngrok.io',
-    '.glitch.me'
+    '.glitch.me',
     'localhost:8000',
     '127.0.0.1',
 ]
