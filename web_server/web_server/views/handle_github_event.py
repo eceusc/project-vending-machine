@@ -26,7 +26,7 @@ def handle_github_event(request):
     payloadJson = json.loads(payload.get("payload"))
     id = payloadJson.get("issue").get("number")
     issue = repo.get_issue(id)
-    issue.create_comment('stupid ass issue tf')
+    issue.create_comment('Thanks for reporting an issue!')
     
     # GOAL
     # When an issue is opened, comment on issue, say they got 50 tokens
