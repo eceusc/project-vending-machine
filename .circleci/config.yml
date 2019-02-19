@@ -42,6 +42,7 @@ jobs:
       - run:
           name: run tests
           command: |
+            cd web_server
             pipenv run python manage.py test
 
       - store_artifacts:
