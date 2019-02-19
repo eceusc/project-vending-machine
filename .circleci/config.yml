@@ -30,6 +30,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
+            cd web_server
             sudo pip install pipenv
             pipenv install
 
