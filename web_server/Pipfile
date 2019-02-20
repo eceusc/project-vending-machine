@@ -9,5 +9,3 @@ verify_ssl = true
 django = "*"
 python-dotenv = "*"
 pygithub = "*"
-
-[requires]
