@@ -1,4 +1,4 @@
-# Project Vending Machine ![](https://img.shields.io/badge/slack-%23project--vending--machine-%234d394b.svg?style=flat&logo=slack&link=https%3A%2F%2Feceopensource.slack.com%2Fmessages%2FCF90BHRAM)
+# Project Vending Machine [![CircleCI](https://circleci.com/gh/eceusc/project-vending-machine.svg?style=svg)](https://circleci.com/gh/eceusc/project-vending-machine) ![](https://img.shields.io/badge/slack-%23project--vending--machine-%234d394b.svg?style=flat&logo=slack&link=https%3A%2F%2Feceopensource.slack.com%2Fmessages%2FCF90BHRAM)
 
 A vending machine powered by open source contributions! :atm:
 
