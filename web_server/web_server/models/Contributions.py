@@ -1,5 +1,7 @@
 from django.db import models
+from django.utils import timezone
 from enum import Enum
+import uuid
 
 class ContributorType(Enum):
     AD = "Admin"
@@ -7,11 +9,11 @@ class ContributorType(Enum):
 
 
 class Contributions(models.Model):
-    id = models.IntegerField()
-    type = models.CharField(
+    identification = models.IntegerField()
+    contributionType = models.CharField(
         max_length=10,
         choices=[(tag, tag.value) for tag in ContributorType]
     )
     contributor = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
+    timestamp = models.DateField(default=timezone.now())
     approval = models.IntegerField()
