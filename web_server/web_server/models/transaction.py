@@ -5,3 +5,4 @@ class transaction(models.Model):
 	user_id = models.IntegerField()
 	user = models.IntegerField()
 	timestamp = models.DateField()
+	# test
