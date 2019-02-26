@@ -10,7 +10,7 @@ The "open source contributions" will be powered by a Django app that listen to t
 
 ## Structure
 
-This repo is empty as of now (bc the project hasn't started yet), but this repo will be divided into several parts. For example, there will be directories called `/arduino`, `/rasberry-pi`, `/web-app`, etc. Each directory will have their own contribution guides.
+This repo is empty as of now (bc the project hasn't started yet), but this repo will be divided into several parts. For example, there will be directories called `/arduino`, `/pi-server`, `/web-app`, etc. Each directory will have their own contribution guides.
 
 ## Contributing
 
