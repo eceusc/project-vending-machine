@@ -6,5 +6,5 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-
-[requires]
+django = "*"
+python-dotenv = "*"

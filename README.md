@@ -1,4 +1,4 @@
-# Project Vending Machine ![](https://img.shields.io/badge/slack-%23project--vending--machine-%234d394b.svg?style=flat&logo=slack&link=https%3A%2F%2Feceopensource.slack.com%2Fmessages%2FCF90BHRAM)
+# Project Vending Machine [![CircleCI](https://circleci.com/gh/eceusc/project-vending-machine.svg?style=svg)](https://circleci.com/gh/eceusc/project-vending-machine) ![](https://img.shields.io/badge/slack-%23project--vending--machine-%234d394b.svg?style=flat&logo=slack&link=https%3A%2F%2Feceopensource.slack.com%2Fmessages%2FCF90BHRAM)
 
 A vending machine powered by open source contributions! :atm:
 
@@ -10,7 +10,7 @@ The "open source contributions" will be powered by a Django app that listen to t
 
 ## Structure
 
-This repo is empty as of now (bc the project hasn't started yet), but this repo will be divided into several parts. For example, there will be directories called `/arduino`, `/rasberry-pi`, `/web-app`, etc. Each directory will have their own contribution guides.
+This repo is empty as of now (bc the project hasn't started yet), but this repo will be divided into several parts. For example, there will be directories called `/arduino`, `/pi-server`, `/web-app`, etc. Each directory will have their own contribution guides.
 
 ## Contributing
 
