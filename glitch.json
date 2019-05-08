@@ -1,5 +1,5 @@
 {
-  "install": "pip install --user pipenv && cd web_server && pipenv install",
+  "install": "pip3 install --user pipenv && cd web_server && pipenv install --three",
   "start": "cd web_server &&  pipenv run python manage.py runserver",
   "watch": {
     "ignore": [
@@ -14,3 +14,4 @@
     "throttle": 1000
   }
 }
+
